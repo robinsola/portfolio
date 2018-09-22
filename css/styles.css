@@ -21,8 +21,8 @@
 }
 
 .project-item:hover img {
-  filter: brightness(0.3);
-  -webkit-filter: brightness(0.3);
+  filter: brightness(0.2);
+  -webkit-filter: brightness(0.2);
 }
 
 .hover-top {
@@ -37,7 +37,7 @@
 }
 
 .project-item:hover .hover-top {
-  top: 150px;
+  top: 125px;
   opacity: 1;
   -webkit-opacity: 1;
 }
@@ -54,9 +54,25 @@
 }
 
 .project-item:hover .hover-bottom {
-  bottom: 150px;
+  bottom: 155px;
   opacity: 1;
   -webkit-opacity: 1;
+}
+
+.project-item h6 {
+  padding-bottom: 20px;
+}
+
+.project-item a {
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.project-item a:hover {
+  background-color: #4a329b;
 }
 
 #mainNav {
