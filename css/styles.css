@@ -6,9 +6,10 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  /* display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center; */
+}
+
+.project-item {
+  position: relative;
 }
 
 .project-item img{
@@ -16,9 +17,47 @@
   height: 240px;
   object-fit: cover;
   margin: 20px;
-  /* margin-bottom: 30px;
-  border: 1px solid #161616;
-  border-radius: 10px; */
+  transition: filter 0.5s;
+  -webkit-transition: filter 0.5s;
+}
+
+.project-item:hover img {
+  filter: brightness(0.1);
+  -webkit-filter: brightness(0.1);
+}
+
+.hover-top {
+  text-align: center;
+  color: white;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  -webkit-opacity: 0;
+  transition: top 0.3s ease-in-out, opacity 0.3s;
+  -webkit-transition: top 0.3s ease-in-out, opacity 0.3s;
+}
+
+.project-item:hover .hover-top {
+  top: 150px;
+  opacity: 1;
+  -webkit-opacity: 1;
+}
+
+.hover-bottom {
+  text-align: center;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  -webkit-opacity: 0;
+  transition: bottom 0.3s ease-in-out, opacity 0.3s;
+  -webkit-transition: bottom 0.3s ease-in-out, opacity 0.3s;
+}
+
+.project-item:hover .hover-bottom {
+  bottom: 150px;
+  opacity: 1;
+  -webkit-opacity: 1;
 }
 
 #mainNav {
