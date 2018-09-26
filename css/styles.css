@@ -122,8 +122,8 @@
 .masthead h1 {
   font-family: 'Roboto';
   font-weight: 900;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
   letter-spacing: 0.8rem;
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
@@ -137,8 +137,8 @@
 
 @media (min-width: 768px) {
   .masthead h1 {
-    font-size: 4rem;
-    line-height: 4rem;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
   }
   .code-icons {
     font-size: 4.5rem;
@@ -192,10 +192,11 @@
   height: 250px;
   border-radius: 100%;
   border: 4px solid #4a329b;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
 }
 
 .about-section p {
+  font-size: 1.3rem;
   margin-bottom: 3rem;
 }
 
